@@ -1,14 +1,20 @@
 /* Estilos para el formulario */
 body {
     font-family: Arial, sans-serif;
+    color: rgb(11, 11, 11);
     margin: 20px;
     text-align: center;
-    background-color: rgba(86,123,167,255);
+    background-image: url(../images/ImagenFondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
 }
 
 form {
     max-width: 400px;
     margin: 0 auto;
+    z-index: 1;
 }
 
 label {
@@ -21,6 +27,8 @@ input, textarea {
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
+    resize: none;
+    border-radius: 5px;
 }
 
 button {
@@ -35,4 +43,3 @@ button {
 button:hover {
     background-color: #45a049;
 }
-
