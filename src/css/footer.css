@@ -10,21 +10,19 @@ footer {
 	font-family: 'Roboto', sans-serif;
     width: 100%;
 	max-width: 100%;
-	margin: auto;
-	padding: 10px 10px 0;
-
+	padding-block: 1rem;
 }
 
 .contenedor-footer {
-
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
     grid-template-rows: auto;
-    grid-auto-flow: row dense;
 	gap:10px;
     font-size:12px ;
-    
+    margin: 0 auto;
+    max-width: 1200px;
 }
+
 h3{
     color: #9eb4bf;
     text-shadow: 2px 2px 2px rgba(220, 149, 87, 255);
@@ -32,58 +30,59 @@ h3{
     font-family: Roboto;
     font-weight: 600;
     line-height: 20px;
-    word-wrap: break-word;
-    height: 46px;
-    flex-shrink: 0;
-    align-self: stretch;
+    height: 30px;
 }
 
 .card {
-    width: 100%;
-    height: 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
- 
+    text-align: center;
 }
+
 #imagelogo{
     width: 8em;
     height: 6em;
+    border:solid #567ba7;
+    border-style:groove;
 }
 
 ul{
     list-style: none;
-    font-size: 14px;
+   
     line-height: 170%;
-
 }
+
 .rrss{
     margin-top: 20px;
-
 }
+
 .rrss li{
    display: inline;
    margin:10px;
-
+   transition: 0.3s ease-in-out;
 }
 .rrss img:hover {
     cursor: pointer;
     transform: scale(1.2);
-    transition: transform 0.1s;
+}
+
+.card figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card figure img{
+    margin-right: 10px;
 }
 
 .copy {
 	padding: 0px;
-    display: flex;
-    flex-direction: row;
+    text-align: center;
     justify-content: space-between;
     align-items: end;
     padding-top: 20px;
-    color: #7C8594; 
+    color: #9eb4bf; 
     font-size: 10px;
     font-family: Roboto; 
-
 }
 
 .copy ul li {
@@ -92,10 +91,9 @@ ul{
     margin-right: 10px;
     color: #7C8594; 
     font-size: 10px; 
-    font-family: Roboto; 
-    }
+ }
+
 ul a{
     text-decoration: none;
     color: #9eb4bf;
 }
-
