@@ -1,0 +1,106 @@
+header{
+  background: #f9f8f6;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  
+}
+
+
+.socialmedia{ 
+  margin-right:40px;
+  text-align: right;
+  color: #d97823;
+  opacity: 0.8;
+  }
+
+  #whatsappicon{
+    color: #25D366;
+  }
+  #instagramicon{
+    color: orangered;
+  }
+  #xtwittericon{
+    color: #00acee;
+  }
+  #facebookicon{
+    color: #3b5998;
+  }
+
+
+ nav{
+  
+  padding: 20px; 
+  background: #f9f8f6;
+  height: 150px;
+  width: 100%; 
+  font-size:20px;
+}
+
+
+.enlace{
+  position: absolute;
+  padding: 0px 50px;
+}
+
+.logo_header{
+  margin-top: -50px;
+  float: left;
+  height: 170px;
+  width: 200px;
+  
+
+}
+
+nav ul{
+  
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  
+  display:inline-block;
+  line-height: 100px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #567ba7;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform:uppercase;
+}
+
+li a.active{
+  background: #383639;
+  color:#fff;
+  transition: 0.5;
+}
+
+li a:hover{
+  background: #567ba7;
+  transition: 0.5s;
+  color:#fff;
+  font-weight: bold;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: #3d5a7a;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display:none;
+}
+
