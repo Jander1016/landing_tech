@@ -1,23 +1,23 @@
 footer {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: #9eb4bf;
 }
 
 #footer {
-	background: #383639;
+    background: #383639;
     width: 100%;
-	max-width: 100%;
-	padding-block: 1rem;
+    max-width: 100%;
+    padding-block: 1rem;
 }
 
 .container-footer {
-	display: grid;
-	grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
     grid-template-rows: auto;
-	gap:10px;
+    gap:10px;
     font-size:12px ;
     margin: 0 auto;
     max-width: 1200px;
