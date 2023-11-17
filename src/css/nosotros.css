@@ -1,15 +1,15 @@
 
-.nosotros h1, h2, h3, p, ul, li {
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-.nosotros {
+body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
 
-headernos footernos {
+header, footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -22,29 +22,43 @@ headernos footernos {
     padding: 20px;
 }
 
-.nosotros h2, h3 {
+h2, h3 {
     color: #333;
 }
 
 
-.nosotros h2 {
+h2 {
     border-bottom: 2px solid #333;
     margin-bottom: 10px;
     padding-bottom: 5px;
+    font-size: 35px;
+    text-align: center;
 }
 
 .nosotros h3 {
     margin-top: 20px;
 }
 
-.nosotros p {
+p {
     margin-bottom: 15px;
 }
 
 
-footernos {
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 100%;
 }
-
+.fotos{
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.foto{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
