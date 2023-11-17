@@ -1,15 +1,15 @@
 
-body, h1, h2, h3, p, ul, li {
+.nosotros h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-body {
+.nosotros {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
 
-header, footer {
+headernos footernos {
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -22,27 +22,27 @@ header, footer {
     padding: 20px;
 }
 
-h2, h3 {
+.nosotros h2, h3 {
     color: #333;
 }
 
 
-h2 {
+.nosotros h2 {
     border-bottom: 2px solid #333;
     margin-bottom: 10px;
     padding-bottom: 5px;
 }
 
-h3 {
+.nosotros h3 {
     margin-top: 20px;
 }
 
-p {
+.nosotros p {
     margin-bottom: 15px;
 }
 
 
-footer {
+footernos {
     position: fixed;
     bottom: 0;
     width: 100%;

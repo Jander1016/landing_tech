@@ -1,4 +1,4 @@
-* {
+footer {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -23,7 +23,7 @@
     max-width: 1200px;
 }
 
-h3{
+footer h3{
     text-shadow: 2px 2px 2px rgba(220, 149, 87, 255);
     font-size: 18px;
     font-weight: 600;
@@ -31,30 +31,30 @@ h3{
     height: 30px;
 }
 
-.card {
+footer .card{
     text-align: center;
 }
 
-#imagelogo{
+footer #imagelogo{
     width: 8em;
     height: 6em;
     border:solid #567ba7;
     border-style:groove;
 }
 
-p {
+footer p{
     margin-top: 8px;
 }
-ul{
+footer ul{
     list-style: none;
     line-height: 170%;
 }
 
-.rrss{
+footer .rrss{
     margin-top: 20px;
 }
 
-.rrss li{
+footer .rrss li{
    display: inline;
    margin:10px;
    transition: 0.3s ease-in-out;
