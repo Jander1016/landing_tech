@@ -1,14 +1,11 @@
 header{
-  background: #f9f8f6;
   font-family: 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  
 }
-
 
 .socialmedia{ 
   margin-right:40px;
@@ -30,16 +27,13 @@ header{
     color: #3b5998;
   }
 
-
  nav{
-  
   padding: 20px; 
   background: #f9f8f6;
   height: 150px;
   width: 100%; 
   font-size:20px;
 }
-
 
 .enlace{
   position: absolute;
@@ -52,7 +46,6 @@ header{
   height: 170px;
   width: 200px;
   
-
 }
 
 nav ul{
@@ -103,4 +96,3 @@ li a:hover{
 #check{
   display:none;
 }
-
