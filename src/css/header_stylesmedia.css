@@ -1,5 +1,5 @@
 @media (max-width: 1024px){/*Responsive con tablet*/
-  body {
+  home {
     background-image: url(../images/ImagenFondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,7 +39,7 @@
 
 
 @media (max-width: 400px){ /*Responsive móvil*/
-  body{
+  home{
     background-color: #33FF4b;
   }
   
