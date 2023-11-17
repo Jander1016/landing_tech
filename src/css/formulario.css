@@ -1,5 +1,5 @@
-* Estilos para el formulario */
-.containerform {
+/* Estilos para el formulario */
+.form {
     font-family: Arial, sans-serif;
     color: rgb(11, 11, 11);
     margin: 20px;
@@ -9,7 +9,6 @@
     background-attachment: fixed;
     background-size: cover;
     color: #FFFFFF;
-    opacity: 0.6;
 }
 
 form {
@@ -32,7 +31,7 @@ input, textarea {
     border-radius: 5px;
 }
 
-button {
+.form button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
@@ -41,6 +40,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.form button:hover {
     background-color: #45a049;
 }
