@@ -7,18 +7,23 @@
 
 #nosotros {
     font-size:14px ;
-    max-width: 1200px;
+    max-width: 1440px;
     min-width: 350px;
     margin: 0 auto;
     line-height: 1.9;
     background-color: #567ba7 ;
     display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-template-rows: repeat(2,1fr);
+
+    grid-template-areas: "area1 area2"
+                         "area3 area2"   ;
+                         
+                         /* grid-template-columns: 30% 40% 30%; */
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    /* grid-template-rows: repeat(2,1fr); */
     gap: 16px;
 }
 
-.orange-box {
+/* .orange-box {
     background-color: #dc771f;
     height: 100px;
     width: 100px;
@@ -26,7 +31,7 @@
     top: 0;
     right: 30;
     border-radius: 50px 0px 50px 50px;
-}
+} */
 
 h2 {
 
@@ -41,18 +46,32 @@ h3 {
     font-size: 20px;
 }
 
-.imgnosotros {
+.imagennosotros{
+    grid-template-areas: area3;
+}
+
+.img_nosotros {
     width: 100%;
     height: 100%;
+    border-radius: 10%;
 }
+
+.text_our{
+    grid-template-areas: area1;
+}
+
 .fotos{
+    grid-template-areas: area2;
     width:fit-content;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: repeat(2,1fr);
+    /* flex-wrap: wrap; */
     justify-content:center;
 }
+
 .foto{
+    display: grid;
     border-radius: 50%;
     width: 160px;
     height: 160px;
