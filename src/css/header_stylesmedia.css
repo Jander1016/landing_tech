@@ -38,7 +38,6 @@
 
 
 
-
 @media (max-width: 750px){ /*Responsive móvil*/
   body{
     background-color: #33FF4b;
@@ -57,7 +56,6 @@
     transition: 0.5;
     
   }
-
 
    .socialmedia{ 
     font-size: 10px;
@@ -101,9 +99,4 @@
     float: right;
     margin-top: 60px; 
   }
-
-  #check:checked ~li{
-    
-  }
-
 }
