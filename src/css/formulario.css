@@ -1,28 +1,39 @@
-/* Estilos para el formulario */
-.form {
-    font-family: Arial, sans-serif;
+#contacto {
     color: rgb(11, 11, 11);
     margin: 20px;
     text-align: center;
     background-image: url(../images/ImagenFondo.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-attachment:local;
+    background-size:cover;
     color: #FFFFFF;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 100px;
+    box-shadow: 5px 5px 2px 2px rgb(197, 197, 197);
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-form {
+
+.container h2{
+    font-size: 3rem;
+    padding: 1rem  ;
+}
+
+.container form {
     max-width: 400px;
     margin: 0 auto;
     z-index: 1;
 }
 
-label {
+.container label {
     display: block;
     margin-bottom: 8px;
 }
 
-input, textarea {
+.container input, textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 16px;
@@ -31,7 +42,7 @@ input, textarea {
     border-radius: 5px;
 }
 
-.form button {
+.container button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
@@ -40,6 +51,7 @@ input, textarea {
     cursor: pointer;
 }
 
-.form button:hover {
+.container button:hover {
     background-color: #45a049;
 }
+

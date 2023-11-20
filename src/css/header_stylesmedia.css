@@ -1,20 +1,13 @@
 @media (max-width: 1024px){/*Responsive con tablet*/
-  body {
-    background-image: url(../images/ImagenFondo.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-
-  nav{
+  .home  nav{
     height: 120px;
   }
-
-  ul{
+  
+  .home ul{
     margin-top: -10px;
   }
 
-  .logo_header{
+  .home .logo_header{
     margin-top: -50px;
     height: 140px;
     width: 170px;
@@ -22,16 +15,16 @@
     
   }
 
-  .socialmedia{ 
+  .home  .socialmedia{ 
     font-size: 15px;
     transition: 0.5;
     }
 
-  .enlace{
+    .home  .enlace{
     padding-left: 20px;
   }
 
-  nav ul li a{
+  .home nav ul li a{
     font-size: 14px;
   }
 }
@@ -49,7 +42,7 @@
 
  
   
-  .logo_header{
+  .home .logo_header{
     margin-top: -50px;
     height: 120px;
     width: 150px;
@@ -57,13 +50,13 @@
     
   }
 
-   .socialmedia{ 
+  .home .socialmedia{ 
     font-size: 10px;
     transition: 0.5;
     }
 
    
-  nav ul li a{
+    .home  nav ul li a{
     font-size: 10px;
   }
 
@@ -73,27 +66,27 @@
     transition: 0.5;
   }
 
-  ul{
+  .home ul{
     visibility: hidden;
   }
 
-  nav ul li{
+  .home nav ul li{
     display:block;
     margin: 40px 20px 20px -10px; /*arriba-abajo  derecha-izquierda*/
     line-height: 5px;
     font-size: 20px;
   }
 
-  a{
+  .home  a{
     font-size: 10px;
   }
 
-  li a:hover, li a.active{
+  .home  li a:hover, li a.active{
     background: none;
     color: white;
   }
 
-  #check:checked ~ul{ /*cuando le den al check, que se vea el ul*/
+  .home  #check:checked ~ul{ /*cuando le den al check, que se vea el ul*/
     visibility: visible;
     background: #383639;
     float: right;

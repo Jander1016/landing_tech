@@ -5,18 +5,23 @@
   --color-cards: white;
   font-family: 'Roboto', sans-serif;
 }
+
 .bg{
   background-color: var(--bg-cards) ;
   height: 60vh;
   z-index: -1;
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 2rem;
 }
 
 #services{
   max-width: 1200px;
   min-width: 350px;
+  height: 100vh;
   margin: 0 auto;
   color: var(--color-cards);
+  background-color: aliceblue;
+  box-shadow: 5px 5px 2px 2px rgb(197, 197, 197);
+  border-radius: 100px;
 }
 
 .services__header{
@@ -31,7 +36,6 @@
   gap: 16px;
   max-width: 1000px;
   margin: 3em auto; 
-
 }
 
 .services__container article {
@@ -42,7 +46,7 @@
   border-radius: 2rem;
 }
 
-.service{
+#service{
   box-shadow: 5px 5px 10px 2px #d76e0b;
 
 }

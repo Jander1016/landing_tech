@@ -5,6 +5,8 @@ header{
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  /* position: fixed;
+  width: 100%; */
 }
 
 .socialmedia{ 

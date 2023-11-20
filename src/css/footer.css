@@ -1,6 +1,7 @@
 footer {
     padding: 0;
     margin: 0;
+    margin-top: 1rem;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: #9eb4bf;
@@ -64,26 +65,26 @@ footer .rrss li{
     transform: scale(1.2);
 }
 
-.card figure{
+footer .card figure{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card figure img{
+footer .card figure img{
     margin-right: 10px;
 }
 
-.copy {
+footer .copy {
     text-align: center;
     padding-top: 20px;
     font-size: 10px;
 }
 
-.copy ul li {
+footer .copy ul li {
     display: inline;  
  }
 
-ul a{
+footer .card-1 ul a{
     text-decoration: none;
 }

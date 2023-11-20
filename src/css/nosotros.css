@@ -1,29 +1,70 @@
-.nosotros h1, h2, h3, p, ul, li {
+.nosotros {
     margin: 0;
     padding: 0;
 }
 
-.nosotros {
+/* .nosotros {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-}
+} */
 
-headernos footernos {
+/* #nosotros {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
-}
+} */
 
 #sobre-nosotros {
-    max-width: 800px;
+    max-width: 1200px;
+    min-width: 350px;
     margin: 20px auto;
     padding: 20px;
+    background: #6f8c9e;
+    color: white;
+    border-radius: 100px;
 }
 
-.nosotros h2, h3 {
-    color: #333;
+.nosotros{
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 2rem;
 }
+
+.nosotros-text {
+    padding-inline-end: 2rem;
+}
+
+.nosotros-image img{
+    width:400px;
+    height:460px;
+    border-radius: 5rem;
+}
+
+
+.coders1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.coders2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.coders2 img, .coders1 img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
 
 .nosotros h2 {
     border-bottom: 2px solid #333;
@@ -39,8 +80,36 @@ headernos footernos {
     margin-bottom: 15px;
 }
 
-footernos {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+@media (max-width:390px)
+ {
+    .nosotros{
+        grid-template-columns: 1fr;
+    }
+
+    .nosotros-image img{
+        width:200px;
+        height:260px;
+        border-radius: 5rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .coders1{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+    .coders2{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .coders2 img, .coders1 img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+      }
 }
