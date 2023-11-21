@@ -1,5 +1,12 @@
 @media (max-width: 1024px){/*Responsive con tablet*/
-  .home  nav{
+  home {
+    background-image: url(../images/ImagenFondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  nav{
     height: 120px;
   }
   
@@ -31,8 +38,8 @@
 
 
 
-@media (max-width: 750px){ /*Responsive móvil*/
-  body{
+@media (max-width: 400px){ /*Responsive móvil*/
+  home{
     background-color: #33FF4b;
   }
   
